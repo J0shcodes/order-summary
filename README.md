@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/J0shcodes/order-summary)
-- Live Site URL: [Add live site URL here](https://j0shcodes.github.io/order-summary/)
+- Solution URL: [The Solution](https://github.com/J0shcodes/order-summary)
+- Live Site URL: [The live site](https://j0shcodes.github.io/order-summary/)
 
 ## My process
 Started off first with the HTML markup and then moved over to the CSS file while making changes to the HTML file on the fly.
@@ -83,6 +83,6 @@ body {
 ## Author
 
 - Website - [Joshua](https://github.com/J0shcodes)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/J0shcodes)
-- Twitter - [@yourusername](https://www.twitter.com/Jphleg)
+- Frontend Mentor - [J0shcodes](https://www.frontendmentor.io/profile/J0shcodes)
+- Twitter - [Jphleg](https://www.twitter.com/Jphleg)
 
