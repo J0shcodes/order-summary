@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Red Hat Display';
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.summary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.summary-card {
+  border-radius: 15px;
+  background: #fff;
+}
+
+.summary-image {
+  min-width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.summary-body {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 25px;
+  margin-top: 1em;
+  font-weight: 900;
+}
+
+.summary-text {
+  font-size: 16px;
+  margin-top: 0.5em;
+  margin-left: 16%;
+  width: 300px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.plan {
+  background: hsl(225, 100%, 98%);
+  width: 300px;
+  margin-left: 12%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  padding: 1.5em;
+  letter-spacing: 1px;
+}
+
+.music {
+  display: flex;
+}
+
+.price {
+  margin-left: 1.2em;
+}
+
+
+.price .duration {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.price .amount {
+  color: hsl(224, 23%, 55%);
+}
+
+.change_plan {
+  margin-top: 0.8em;
+  font-size: 14px;
+}
+
+.change_plan a {
+  color: blue;
+  font-weight: 700;
+}
+
+.change_plan a:hover {
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+ margin: 1.5em 0;
+ border-radius: 10px;
+ padding: 1em 8em;
+ border: 0;
+ background: rgb(56, 42, 225);
+ color: #fff;
+ box-shadow: 5px 10px 18px lightblue;
+ letter-spacing: 1px;
+ cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  transform: scale(0.9)
+}
+
+.cancel {
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+}
+
+.cancel a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel a:hover {
+  color: hsl(223, 47%, 23%);
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+
+  .summary-text {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 1.5em 5em;
+   }
+  
+}
